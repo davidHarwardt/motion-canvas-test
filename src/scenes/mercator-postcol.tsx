@@ -57,6 +57,6 @@ export default makeScene2D(function* (view) {
         v().position.y(-20, vars.duration),
     )));
 
-    yield* beginSlide("mercator-postcol-current");
+    // yield* beginSlide("mercator-postcol-current");
 });
 

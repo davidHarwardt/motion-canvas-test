@@ -12,15 +12,15 @@ export default makeScene2D(function* (view) {
 
     const texts = [text, text1];
 
-    view.add(<Txt ref={titleText} fontSize={120} fontWeight={600} text="Vorwuerfe" fill="white" y={20}/>);
+    view.add(<Txt ref={titleText} fontSize={120} fontWeight={600} text="Vorwürfe" fill="white" y={20}/>);
     view.add(<Txt ref={text} fontSize={60} fill="white" opacity={0} y={20} textAlign="center"/>);
     view.add(<Txt ref={text1} fontSize={60} fill="white" opacity={0} y={20} textAlign="center"/>);
 
     const statements = [
-        "Europa zentraler\nund groesser\nals Rest der Welt",
-        "Begruendung von\nunterwerfung\nund enteignung",
-        "Teilt Welt in\neuropaeisches Zentrum\nund Rest der Welt ein",
-        "Expansion findet\nanhand der Karte\nnach 'aussen' statt",
+        "Europa zentraler\nund größer\nals der Rest der Welt",
+        "Begründung von\nUnterwerfung\nund Enteignung",
+        "Einteilung der Welt in\neuropäisches Zentrum\nund Rest der Welt",
+        "Expansion findet\nanhand der Karte\nnach 'außen' statt",
     ];
 
     yield* all(

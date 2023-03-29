@@ -53,7 +53,7 @@ export default makeScene2D(function* (view) {
         map().toProj(d3p.geoCylindricalEqualAreaRaw(45 * (Math.PI / 180.0)), duration),
         sequence(duration / 3.0,
             mapText().opacity(0.0, duration / 3.0),
-            mapText().text("Flaechentreue Projektion", duration / 3.0),
+            mapText().text("flächentreue Projektion", duration / 3.0),
             mapText().opacity(1.0, duration / 3.0)
         ),
     );

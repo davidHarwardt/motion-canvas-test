@@ -5,7 +5,7 @@ import { beginSlide } from "@motion-canvas/core/lib/utils";
 import { fadeT } from "./transitions";
 
 export default makeScene2D(function* (view) {
-    view.add(<Txt text="todo" fontSize={200} fill="orange"/>);
+    // view.add(<Txt text="todo" fontSize={200} fill="orange"/>);
     yield* all(
         fadeT(),
     );

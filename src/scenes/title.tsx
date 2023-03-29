@@ -15,7 +15,7 @@ export default makeScene2D(function* (view) {
 
     view.add(<Rect width={() => view.width() * v()} height={() => view.height() * v()} fill="#222" radius={10 * (1 - v())} opacity={0.2}/>);
 
-    const smt = "Die Mercator-Projektion\nin einer Zeit\ndes Postkolonialen Denkens";
+    const smt = "Die Mercator-Projektion\nin einer Zeit\ndes postkolonialen Denkens";
     yield* all(
         v(1.0, vars.duration),
         statement("title", smt, view),

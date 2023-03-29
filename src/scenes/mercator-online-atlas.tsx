@@ -69,7 +69,7 @@ export default makeScene2D(function* (view) {
         })),
         imgWidth(150, vars.duration),
     );
-    yield* beginSlide("mercator-online-end");
+    // yield* beginSlide("mercator-online-end");
 });
 
 
